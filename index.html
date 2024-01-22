@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- tailwind and daisyui cdn  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="container">
+
+        <!-- navbar section  -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a> </a></li>
+                  <li>
+                    <a>About</a>
+                   
+                  </li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog </a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog </a></li>
+                    <li><a>Contact</a></li>
+                
+                
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Button</a>
+            </div>
+          </div>
+
+
+          <!-- banner section   -->
+
+          <div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="Images/1.png" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="Images/2.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="Images/3.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src="Images/4.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+
+    </header>
+    <!-- proffesional club  -->
+
+    <section class="pro-club container">
+        <div class="title">
+            <h2>Professional Hockeys Club</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis magnam doloribus libero corporis quisquam soluta nulla et vel vitae consequuntur dolore, officia repellendus tempore consequatur repudiandae nisi minima quos. Laborum.</p>
+        </div>
+
+        <div class="pro-details flex">
+            <div class="text-center">
+                <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
+                <h3 class="text-2xl">Prayer Facility</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, nesciunt?</p>
+            </div>
+            <div class="text-center">
+                <div class="radial-progress text-success" style="--value:70;" role="progressbar">70%</div>
+                <h3 class="text-2xl">Experienced Coach</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nisi?</p>
+            </div>
+            <div class="text-center">
+                <div class="radial-progress text-error" style="--value:83;" role="progressbar">83%</div>
+                <h3 class="text-2xl">Senior Player</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, velit?</p>
+            </div>
+            <div class="text-center">
+                <div class="radial-progress text-primary" style="--value:95;" role="progressbar">95%</div>
+                <h3 class="text-2xl">Training Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perspiciatis.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- program section  -->
+
+    <section class="program-section">
+        <div class="title">
+            <h2>Program Sections</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti.</p>
+        </div>
+        
+        <div class="flex">
+            <div class="program"><img src="Images/2.png" alt=""></div>
+            <div class="program"><img src="Images/3.png" alt=""></div>
+        </div>
+        <div>
+            <div class="program"><img src="Images/4.png" alt=""></div>
+        </div>
+    </section>
+
+    <!-- new products section  -->
+
+    <section class="new-products">
+
+        <div class="title">
+            <h2>Our New Products</h2>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div>
+
+        <div class="products flex">
+            <div class="gap-10">
+                <div class="products-details flex">
+                    <img src="Images/5.png" alt="">
+                    <div>
+                        icon
+                        <h4>world cup flags</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p>Price - $22.00</p>
+                    </div>
+                </div>
+
+                <div class="products-details flex">
+                    <img src="Images/6.png" alt="">
+                    <div>
+                        icon
+                        <h4>world cup flags</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p>Price - $22.00</p>
+                    </div>
+                </div>
+
+                <div class="products-details flex ">
+                    <img src="Images/7.png" alt="">
+                    <div>
+                        icon
+                        <h4>world cup flags</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p>Price - $22.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="products-details flex">
+                    <img src="Images/5.png" alt="">
+                    <div>
+                        icon
+                        <h4>world cup flags</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p>Price - $22.00</p>
+                    </div>
+                </div>
+
+                <div class="products-details flex">
+                    <img src="Images/6.png" alt="">
+                    <div>
+                        icon
+                        <h4>world cup flags</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p>Price - $22.00</p>
+                    </div>
+                </div>
+
+                <div class="products-details flex">
+                    <img src="Images/7.png" alt="">
+                    <div>
+                        icon
+                        <h4>world cup flags</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p>Price - $22.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- client question section  -->
+     <section class="client-question">
+        <div class="title">
+            <h2>Client Question </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iure sint quia earum laudantium eius quisquam temporibus, beatae qui!</p>
+        </div>
+
+        <div class="flex">
+            <img src="Images/11.png" alt="">
+            <div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Our Equipment
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nulla voluptates quisquam minima facere corrupti porro sed iusto illo quaerat!</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Hockey Training
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa eveniet atque qui dolorem, labore dignissimos. Ex alias deserunt eaque?</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Ski Touring
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid voluptatem libero voluptates hic commodi, ex corporis eaque voluptate minima!</p>
+                    </div>
+
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Pricings
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid voluptatem libero voluptates hic commodi, ex corporis eaque voluptate minima!</p>
+                        </div>
+                      </div>
+
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Booking
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid voluptatem libero voluptates hic commodi, ex corporis eaque voluptate minima!</p>
+                        </div>
+                      </div>
+
+                  </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- get in touch section  -->
+     
+     <section class="get-in-touch flex">
+        <div class="contact">
+            <div>
+                <img src="Images/Group 1171275317.png" alt="">
+                <p class="text-1.5xl">Phone Number</p>
+                <h4>(+11)0123456789</h4>
+            </div>
+
+            <div>
+                <img src="Images/Group 1171275318.png" alt="">
+                <p class="text-1.5xl">Email :</p>
+                <h4> hockeys@support.com</h4>
+            </div>
+
+            <div>
+                <img src="Images/Group 1171275321.png" alt="">
+                <p class="text-1.5xl">Location : </p>
+                <h4>152/1 Mohakhali Wireless Gate</h4>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <label for="">Your name
+                    <input type="text">
+                </label>
+                <label for="">Your Email
+                    <input type="email">
+                </label>
+                <label for="">Subject
+                    <input type="text">
+                </label>
+                <label for="">Your number
+                    <input type="text">
+                </label>
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="write your message"></textarea>
+             </div>
+            <button type="submit">Send Message</button>
+        </div>
+
+        <div class="social-media text-center">
+            <h3>Social Media</h3>
+            <div class="flex">
+                <a href="">fb</a>
+                <a href="">IG</a>
+                <a href="">link</a>
+                <a href="">twet</a>
+            </div>
+        </div>
+
+     </section>
+
+     <!-- footer section  -->
+
+     <footer class="flex bg-black text-white">
+
+        <div class="basis-2/5">
+            <h3 class="text-3xl">Get In touch</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rem nostrum ullam mollitia sapiente. Esse, voluptas. Accusantium illum quisquam error!</p>
+            <p>
+                hockeys@support.com
+            </p>
+            <p>
+                (+62) 123-321-543
+            </p>
+        </div>
+
+        <div class="basis-1/5">
+            <h4 class="text-2xl">Company</h4>
+            <p><a href="">About us</a></p> 
+           <p> <a href="">Leadership</a></p>
+           <p> <a href="">Careers</a></p>
+           <p> <a href="">News & Article</a></p>
+            <p><a href="">Legal Notice</a></p>
+        </div>
+
+        <div class="basis-1/5">
+            <h4 class="text-2xl">Support</h4>
+            <p><a href="">About us</a></p> 
+           <p> <a href="">Leadership</a></p>
+           <p> <a href="">Careers</a></p>
+           <p> <a href="">News & Article</a></p>
+            <p><a href="">Legal Notice</a></p>
+        </div>
+
+        <div class="basis-1/5">
+            <h4 class="text-2xl">Services</h4>
+            <p><a href="">About us</a></p> 
+           <p> <a href="">Leadership</a></p>
+           <p> <a href="">Careers</a></p>
+           <p> <a href="">News & Article</a></p>
+            <p><a href="">Legal Notice</a></p>
+        </div>
+
+
+     </footer>
+</body>
+</html>

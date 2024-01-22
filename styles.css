@@ -1,0 +1,24 @@
+
+.title{
+    text-align: center;
+    padding:10px 20%;
+    margin: 20px auto;
+    border-top: 1px dotted rgba(19, 19, 24, 0.60);
+    border-bottom: 1px dotted rgba(19, 19, 24, 0.60);
+}
+.title h2{
+    color: #131318;
+    font-family: Manrope;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.title p{
+    color: rgba(19, 19, 24, 0.60);
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
