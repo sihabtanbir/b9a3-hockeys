@@ -11,8 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="container">
+<body">
+    <header class="container p-5">
 
         <!-- navbar section  -->
         <div class="navbar bg-base-100">
@@ -21,10 +21,9 @@
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a> </a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"><li><a> </a></li>
                   <li>
-                    <a>About</a>
+                    <a href="">About</a>
                    
                   </li>
                   <li><a>Pages</a></li>
@@ -32,11 +31,11 @@
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl">daisyUI</a>
+              <a class="btn btn-ghost text-2xl">Hockey <span class="text-red-500">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
+                <li class="active"><a href="#">Home</a></li>
                 <li><a>About</a></li>
                     <li><a>Pages</a></li>
                     <li><a>Blog </a></li>
@@ -46,7 +45,7 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn">Button</a>
+              <a class="btn bg-red-500 text-white">Get ticket</a>
             </div>
           </div>
 
@@ -93,7 +92,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis magnam doloribus libero corporis quisquam soluta nulla et vel vitae consequuntur dolore, officia repellendus tempore consequatur repudiandae nisi minima quos. Laborum.</p>
         </div>
 
-        <div class="pro-details flex">
+        <div class="pro-details flex gap-10">
             <div class="text-center">
                 <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
                 <h3 class="text-2xl">Prayer Facility</h3>
@@ -124,14 +123,15 @@
             <h2>Program Sections</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deleniti.</p>
         </div>
-        
-        <div class="flex">
+        <div class="max-auto">
+        <div class="gap-5 flex mb-5 w-full">
             <div class="program"><img src="Images/2.png" alt=""></div>
             <div class="program"><img src="Images/3.png" alt=""></div>
         </div>
         <div>
-            <div class="program"><img src="Images/4.png" alt=""></div>
+            <div class="program w-full"><img src="Images/4.png" alt=""></div>
         </div>
+    </div>
     </section>
 
     <!-- new products section  -->
@@ -145,65 +145,65 @@
 
         <div class="products flex">
             <div class="gap-10">
-                <div class="products-details flex">
+                <div class="products-details flex gap-5 pb-5">
                     <img src="Images/5.png" alt="">
                     <div>
                         icon
-                        <h4>world cup flags</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
-                        <p>Price - $22.00</p>
+                        <h4 class="text-xl font-extrabold">world cup flags</h4>
+                        <p class="products-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p class="text-red-500">Price - $22.00</p>
                     </div>
                 </div>
 
-                <div class="products-details flex">
+                <div class="products-details flex gap-5 pb-5 w-full">
                     <img src="Images/6.png" alt="">
                     <div>
                         icon
-                        <h4>world cup flags</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
-                        <p>Price - $22.00</p>
+                        <h4  class="text-xl font-extrabold">world cup flags</h4>
+                        <p class="products-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p class="text-red-500">Price - $22.00</p>
                     </div>
                 </div>
 
-                <div class="products-details flex ">
+                <div class="products-details flex gap-5">
                     <img src="Images/7.png" alt="">
                     <div>
                         icon
-                        <h4>world cup flags</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
-                        <p>Price - $22.00</p>
+                        <h4  class="text-xl font-extrabold">world cup flags</h4>
+                        <p class="products-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p class="text-red-500">Price - $22.00</p>
                     </div>
                 </div>
             </div>
 
             <div>
-                <div class="products-details flex">
-                    <img src="Images/5.png" alt="">
+                <div class="products-details flex gap-5 pb-5">
+                    <img src="Images/8.png" alt="">
                     <div>
                         icon
-                        <h4>world cup flags</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
-                        <p>Price - $22.00</p>
+                        <h4  class="text-xl font-extrabold">world cup flags</h4>
+                        <p class="products-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p class="text-red-500">Price - $22.00</p>
                     </div>
                 </div>
 
-                <div class="products-details flex">
-                    <img src="Images/6.png" alt="">
-                    <div>
-                        icon
-                        <h4>world cup flags</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
-                        <p>Price - $22.00</p>
-                    </div>
-                </div>
-
-                <div class="products-details flex">
+                <div class="products-details flex gap-5 pb-5">
                     <img src="Images/7.png" alt="">
                     <div>
                         icon
-                        <h4>world cup flags</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
-                        <p>Price - $22.00</p>
+                        <h4  class="text-xl font-extrabold">world cup flags</h4>
+                        <p class="products-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p class="text-red-500">Price - $22.00</p>
+                    </div>
+                </div>
+
+                <div class="products-details flex gap-5 ">
+                    <img src="Images/6.png" alt="">
+                    <div>
+                        icon
+                        <h4  class="text-xl font-extrabold">world cup flags</h4>
+                        <p class="products-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, eum.</p>
+                        <p class="text-red-500">Price - $22.00</p>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iure sint quia earum laudantium eius quisquam temporibus, beatae qui!</p>
         </div>
 
-        <div class="flex">
+        <div class="flex gap-5">
             <img src="Images/11.png" alt="">
             <div>
                 <div class="collapse collapse-plus bg-base-200">
@@ -274,63 +274,83 @@
 
      <!-- get in touch section  -->
      
-     <section class="get-in-touch flex">
-        <div class="contact">
-            <div>
+     <section class="get-in-touch flex mt-10 mb-5">
+        <div class="contact basis-1/3 ">
+            <div class="h-48 w-full bg-gray-100 p-10 rounded mb-5">
                 <img src="Images/Group 1171275317.png" alt="">
                 <p class="text-1.5xl">Phone Number</p>
                 <h4>(+11)0123456789</h4>
             </div>
 
-            <div>
+            <div class="h-48 w-full bg-red-50 p-10 rounded mb-5">
                 <img src="Images/Group 1171275318.png" alt="">
                 <p class="text-1.5xl">Email :</p>
                 <h4> hockeys@support.com</h4>
             </div>
 
-            <div>
+            <div class="h-48 w-full bg-gray-100 p-10 rounded mb-5">
                 <img src="Images/Group 1171275321.png" alt="">
                 <p class="text-1.5xl">Location : </p>
                 <h4>152/1 Mohakhali Wireless Gate</h4>
             </div>
         </div>
 
-        <div>
-            <div>
-                <label for="">Your name
-                    <input type="text">
-                </label>
-                <label for="">Your Email
-                    <input type="email">
-                </label>
-                <label for="">Subject
-                    <input type="text">
-                </label>
-                <label for="">Your number
-                    <input type="text">
-                </label>
-            </div>
-            <div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="write your message"></textarea>
-             </div>
-            <button type="submit">Send Message</button>
-        </div>
+        <div class="basis-2/3 p-10">
+            <form class="w-full ">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                      Your Name
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                    <p class="text-red-500 text-xs italic"></p>
+                  </div>
+                  <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                      Your email
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="email">
+                  </div>
 
-        <div class="social-media text-center">
-            <h3>Social Media</h3>
-            <div class="flex">
-                <a href="">fb</a>
-                <a href="">IG</a>
-                <a href="">link</a>
-                <a href="">twet</a>
-            </div>
+                  <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                      Subject
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Subject">
+                    <p class="text-red-500 text-xs italic"></p>
+                  </div>
+                  <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                      phone number 
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="phone number ">
+                  </div>
+                
+                
+                </div>
+                 <div>
+                    <label for="" class="font-bold pb-5">Message <br>
+                    <textarea name="" id="" placeholder="message" class="w-full border-gray-400 bg-gray-200" rows="10"></textarea></label>
+                 </div>
+              </form>
         </div>
+       
 
      </section>
 
+     <div class="social-media text-center border-gray-400">
+        <h3>Social Media</h3>
+        <div class="flex text-center w-full border-gray-400">
+            <a href="">fb</a>
+            <a href="">IG</a>
+            <a href="">link</a>
+            <a href="">twet</a>
+        </div>
+        </div>
+
      <!-- footer section  -->
 
-     <footer class="flex bg-black text-white">
+     <footer class="flex bg-black text-gray-100 p-10">
 
         <div class="basis-2/5">
             <h3 class="text-3xl">Get In touch</h3>

@@ -1,8 +1,8 @@
 
 .title{
     text-align: center;
-    padding:10px 20%;
-    margin: 20px auto;
+    padding:30px 20%;
+    margin: 40px auto;
     border-top: 1px dotted rgba(19, 19, 24, 0.60);
     border-bottom: 1px dotted rgba(19, 19, 24, 0.60);
 }
@@ -21,4 +21,29 @@
     font-style: normal;
     font-weight: 500;
     line-height: 26px; 
+}
+.red-btn{
+    border-radius: 8px;
+    background: #FF4240;
+    padding: 15px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.active, .navbar li:hover{
+   color: #FF4240;
+    border-radius: 8px;
+}
+.products-content{
+    color:rgba(19, 19, 24, 0.60);
+}
+section{
+    padding: 0 15px;
 }
